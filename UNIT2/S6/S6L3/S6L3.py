@@ -28,7 +28,7 @@ def main():
     # Input dell'utente
     target_ip = input("Inserisci l'IP del target: ")
     target_port = int(input("Inserisci la porta UDP del target: "))
-    num_packets = int(input("Quanti pacchetti vuoi inviare? "))
+    num_packets = int(input("Quanti pacchetti vuoi inviare?? "))
     
     send_udp_flood(target_ip, target_port, num_packets)
 
